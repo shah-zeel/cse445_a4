@@ -1,15 +1,162 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Hotel> <!-- Error 1: Wrong root element -->
-    <Hotel> <!-- Error 2: Missing Rating attribute -->
+<Hotel> <!-- Error 1: Wrong root element 'Hotel' instead of 'Hotels' -->
+    <!-- Hotel 1 -->
+    <Hotel Rating="4.2">
         <Name>Westin</Name>
-        <!-- Error 3: Missing Phone element -->
+        <Phone>480-968-8885</Phone>
+        <Phone>800-937-8461</Phone>
         <Address NearestAirport="Sky Harbor">
             <Number>11</Number>
             <Street>E 7th St</Street>
             <City>Tempe</City>
             <State>AZ</State>
             <Zip>85281</Zip>
-        </Address> <!-- Error 4: No closing tag -->
-        <Name>SecondName</Name> <!-- Error 5: Two names -->
+        </Address>
     </Hotel>
-</Hotels>
+
+    <!-- Hotel 2 -->
+    <Hotel Rating="4.5">
+        <Name>The Ritz-Carlton</Name>
+        <Phone>212-308-9100</Phone>
+        <Address NearestAirport="JFK">
+            <Number>50</Number>
+            <Street>Central Park South</Street>
+            <City>New York</City>
+            <State>NY</State>
+            <Zip>10019</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 3: Error 2 - Missing required 'Rating' attribute -->
+    <Hotel>
+        <Name>Hilton Garden Inn</Name>
+        <Phone>602-343-0006</Phone>
+        <Address>
+            <Number>15</Number>
+            <Street>E Monroe St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 4: Error 3 - Missing Phone element -->
+    <Hotel Rating="4.8">
+        <Name>Four Seasons Hotel</Name>
+        <!-- Phone elements removed -->
+        <Address NearestAirport="Miami International">
+            <Number>1435</Number>
+            <Street>Brickell Ave</Street>
+            <City>Miami</City>
+            <State>FL</State>
+            <Zip>33131</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 5: Error 4 - Address has no closing tag -->
+    <Hotel Rating="3.9">
+        <Name>Marriott Downtown</Name>
+        <Phone>213-617-1133</Phone>
+        <Address>
+            <Number>333</Number>
+            <Street>S Figueroa St</Street>
+            <City>Los Angeles</City>
+            <State>CA</State>
+            <Zip>90071</Zip>
+        <!-- Missing </Address> -->
+    </Hotel>
+
+    <!-- Hotel 6: Error 5 - Two Name elements -->
+    <Hotel Rating="4.3">
+        <Name>Hyatt Regency</Name>
+        <Name>Hyatt Regency Chicago</Name> <!-- Second Name -->
+        <Phone>312-565-1234</Phone>
+        <Address NearestAirport="O'Hare">
+            <Number>151</Number>
+            <Street>E Wacker Dr</Street>
+            <City>Chicago</City>
+            <State>IL</State>
+            <Zip>60601</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 7 -->
+    <Hotel Rating="4.1">
+        <Name>Sheraton Grand</Name>
+        <Phone>206-621-9000</Phone>
+        <Phone>800-325-3535</Phone>
+        <Address>
+            <Number>1400</Number>
+            <Street>6th Ave</Street>
+            <City>Seattle</City>
+            <State>WA</State>
+            <Zip>98101</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 8 -->
+    <Hotel Rating="4.6">
+        <Name>The Venetian Resort</Name>
+        <Phone>702-414-1000</Phone>
+        <Address NearestAirport="Harry Reid International">
+            <Number>3355</Number>
+            <Street>Las Vegas Blvd S</Street>
+            <City>Las Vegas</City>
+            <State>NV</State>
+            <Zip>89109</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 9 -->
+    <Hotel Rating="4.4">
+        <Name>Waldorf Astoria</Name>
+        <Phone>407-597-5500</Phone>
+        <Address>
+            <Number>14200</Number>
+            <Street>Bonnet Creek Resort Ln</Street>
+            <City>Orlando</City>
+            <State>FL</State>
+            <Zip>32821</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 10 -->
+    <Hotel Rating="3.8">
+        <Name>DoubleTree by Hilton</Name>
+        <Phone>303-337-2800</Phone>
+        <Address NearestAirport="Denver International">
+            <Number>3203</Number>
+            <Street>Quebec St</Street>
+            <City>Denver</City>
+            <State>CO</State>
+            <Zip>80207</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 11 -->
+    <Hotel Rating="4.7">
+        <Name>The St. Regis</Name>
+        <Phone>415-284-4000</Phone>
+        <Phone>888-627-7106</Phone>
+        <Address>
+            <Number>125</Number>
+            <Street>3rd St</Street>
+            <City>San Francisco</City>
+            <State>CA</State>
+            <Zip>94103</Zip>
+        </Address>
+    </Hotel>
+
+    <!-- Hotel 12 -->
+    <Hotel Rating="4.0">
+        <Name>Embassy Suites</Name>
+        <Phone>214-357-4500</Phone>
+        <Address NearestAirport="Dallas/Fort Worth">
+            <Number>13131</Number>
+            <Street>N Central Expy</Street>
+            <City>Dallas</City>
+            <State>TX</State>
+            <Zip>75243</Zip>
+        </Address>
+    </Hotel>
+</Hotel> <!-- Matches wrong root element -->
