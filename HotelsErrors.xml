@@ -5,7 +5,7 @@
         <Name>Westin</Name>
         <Phone>480-968-8885</Phone>
         <Phone>800-937-8461</Phone>
-        <Address NearestAirport="Sky Harbor">
+        <Address NearstAirport="Sky Harbor">
             <Number>11</Number>
             <Street>E 7th St</Street>
             <City>Tempe</City>
@@ -18,7 +18,7 @@
     <Hotel Rating="4.5">
         <Name>The Ritz-Carlton</Name>
         <Phone>212-308-9100</Phone>
-        <Address NearestAirport="JFK">
+        <Address NearstAirport="JFK">
             <Number>50</Number>
             <Street>Central Park South</Street>
             <City>New York</City>
@@ -44,7 +44,7 @@
     <Hotel Rating="4.8">
         <Name>Four Seasons Hotel</Name>
         <!-- Phone elements removed -->
-        <Address NearestAirport="Miami International">
+        <Address NearstAirport="Miami International">
             <Number>1435</Number>
             <Street>Brickell Ave</Street>
             <City>Miami</City>
@@ -71,7 +71,7 @@
         <Name>Hyatt Regency</Name>
         <Name>Hyatt Regency Chicago</Name> <!-- Second Name -->
         <Phone>312-565-1234</Phone>
-        <Address NearestAirport="O'Hare">
+        <Address NearstAirport="O'Hare">
             <Number>151</Number>
             <Street>E Wacker Dr</Street>
             <City>Chicago</City>
@@ -98,7 +98,7 @@
     <Hotel Rating="4.6">
         <Name>The Venetian Resort</Name>
         <Phone>702-414-1000</Phone>
-        <Address NearestAirport="Harry Reid International">
+        <Address NearstAirport="Harry Reid International">
             <Number>3355</Number>
             <Street>Las Vegas Blvd S</Street>
             <City>Las Vegas</City>
@@ -124,7 +124,7 @@
     <Hotel Rating="3.8">
         <Name>DoubleTree by Hilton</Name>
         <Phone>303-337-2800</Phone>
-        <Address NearestAirport="Denver International">
+        <Address NearstAirport="Denver International">
             <Number>3203</Number>
             <Street>Quebec St</Street>
             <City>Denver</City>
@@ -151,7 +151,7 @@
     <Hotel Rating="4.0">
         <Name>Embassy Suites</Name>
         <Phone>214-357-4500</Phone>
-        <Address NearestAirport="Dallas/Fort Worth">
+        <Address NearstAirport="Dallas/Fort Worth">
             <Number>13131</Number>
             <Street>N Central Expy</Street>
             <City>Dallas</City>
