@@ -31,7 +31,7 @@
     <Hotel>
         <Name>Hilton Garden Inn</Name>
         <Phone>602-343-0006</Phone>
-        <Address>
+        <Address NearstAirport="Unknown">
             <Number>15</Number>
             <Street>E Monroe St</Street>
             <City>Phoenix</City>
@@ -43,7 +43,6 @@
     <!-- Hotel 4: Error 3 - Missing Phone element -->
     <Hotel Rating="4.8">
         <Name>Four Seasons Hotel</Name>
-        <!-- Phone elements removed -->
         <Address NearstAirport="Miami International">
             <Number>1435</Number>
             <Street>Brickell Ave</Street>
@@ -57,19 +56,19 @@
     <Hotel Rating="3.9">
         <Name>Marriott Downtown</Name>
         <Phone>213-617-1133</Phone>
-        <Address>
+        <Address NearstAirport="Unknown">
             <Number>333</Number>
             <Street>S Figueroa St</Street>
             <City>Los Angeles</City>
             <State>CA</State>
             <Zip>90071</Zip>
-        <!-- Missing </Address> -->
+        </Address>
     </Hotel>
 
     <!-- Hotel 6: Error 5 - Two Name elements -->
     <Hotel Rating="4.3">
         <Name>Hyatt Regency</Name>
-        <Name>Hyatt Regency Chicago</Name> <!-- Second Name -->
+        <Name>Hyatt Regency Chicago</Name>
         <Phone>312-565-1234</Phone>
         <Address NearstAirport="O'Hare">
             <Number>151</Number>
@@ -85,7 +84,7 @@
         <Name>Sheraton Grand</Name>
         <Phone>206-621-9000</Phone>
         <Phone>800-325-3535</Phone>
-        <Address>
+        <Address NearstAirport="Unknown">
             <Number>1400</Number>
             <Street>6th Ave</Street>
             <City>Seattle</City>
@@ -111,7 +110,7 @@
     <Hotel Rating="4.4">
         <Name>Waldorf Astoria</Name>
         <Phone>407-597-5500</Phone>
-        <Address>
+        <Address NearstAirport="Unknown">
             <Number>14200</Number>
             <Street>Bonnet Creek Resort Ln</Street>
             <City>Orlando</City>
@@ -138,7 +137,7 @@
         <Name>The St. Regis</Name>
         <Phone>415-284-4000</Phone>
         <Phone>888-627-7106</Phone>
-        <Address>
+        <Address NearstAirport="Unknown">
             <Number>125</Number>
             <Street>3rd St</Street>
             <City>San Francisco</City>
