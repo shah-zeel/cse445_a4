@@ -148,7 +148,7 @@
     </Hotel>
 
     <!-- Hotel 12 -->
-    <Hotel Rating="4.0">
+    <Hotel>
         <Name>Embassy Suites</Name>
         <Phone>214-357-4500</Phone>
         <Address NearstAirport="Dallas/Fort Worth">
