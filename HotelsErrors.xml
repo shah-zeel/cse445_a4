@@ -27,11 +27,11 @@
         </Address>
     </Hotel>
 
-    <!-- Hotel 3: Error 2 - Missing required 'Rating' attribute -->
+    <!-- Hotel 3: Error 2 - Missing required 'NearstAirport' attribute -->
     <Hotel>
         <Name>Hilton Garden Inn</Name>
         <Phone>602-343-0006</Phone>
-        <Address NearstAirport="Unknown">
+        <Address>
             <Number>15</Number>
             <Street>E Monroe St</Street>
             <City>Phoenix</City>
@@ -62,7 +62,6 @@
             <City>Los Angeles</City>
             <State>CA</State>
             <Zip>90071</Zip>
-        </Address>
     </Hotel>
 
     <!-- Hotel 6: Error 5 - Two Name elements -->
